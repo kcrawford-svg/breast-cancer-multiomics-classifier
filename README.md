@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project implements a **Wide × Deep Neural Network** using the **BRCA Multi-Omics (TCGA)** dataset to classify **breast cancer molecular subtypes** — *Luminal A, Luminal B, HER2-enriched, and Basal-like*.  
+This project implements a **Wide × Deep Neural Network** using the **BRCA Multi-Omics (TCGA)** dataset to classify **breast cancer molecular subtypes**: *Luminal A, Luminal B, HER2-enriched, and Basal-like*.  
 
-The goal is to integrate multiple omics data types — **gene expression, copy-number variation, mutation, and protein abundance** — and learn nonlinear genomic interactions that define these subtypes.
+The goal is to integrate multiple omics data types: **gene expression, copy-number variation, mutation, and protein abundance** — and learn nonlinear genomic interactions that define these subtypes.
 
 ---
 
@@ -60,7 +60,7 @@ The goal is to integrate multiple omics data types — **gene expression, copy-n
 
 - Deep embeddings reveal latent clusters corresponding to biological subtypes.  
 - Wide branch improves classification of HER2-enriched and Basal-like classes.  
-- Feature interactions (e.g., *PTEN* × *AKT1*) enhance interpretability.
+- Feature interactions (*PTEN* × *AKT1*) enhance interpretability.
 
 ---
 
